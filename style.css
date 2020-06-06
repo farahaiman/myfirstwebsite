@@ -1,0 +1,424 @@
+
+ @import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+ @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+.navbar{
+    background-color: #ffffff ;
+}
+.nav-link{
+    color: rgb(24, 190, 219) !important;
+    font-weight: 600;
+}
+.fa-shopping-cart {
+    font-size: 35px !important;
+}
+.fa-user-circle{
+    font-size: 35px !important;
+}
+ .fa-ambulance{
+    font-size: 40px  !important;
+    margin-right: 10px;
+    color: rgb(212, 212, 247);
+}  
+.fa-user-circle{
+    color:rgb(23, 123, 153) ;
+}
+.fa-shopping-cart{
+    color:rgb(23, 123, 153) ;
+}
+h3{
+    color: ivory;
+} 
+ .card1{
+    display: flex;
+    width: 300px;
+    height: 100%;
+    border-radius: 4px;
+    border: 2px solid rgb(238, 238, 245);
+    background-color: rgb(53, 193, 218);
+    box-shadow: 2px 4px 5px rgb(89, 91, 107);
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.card2{
+    display: flex;
+    width: 300px;
+    height: 100%;
+    border-radius: 4px;
+    border: 2px solid rgb(238, 238, 245);
+    background-color: rgb(53, 193, 218);
+    box-shadow: 2px 4px 5px rgb(89, 91, 107);
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.card3{
+    display: flex;
+    width: 300px;
+    height: 100%;
+    border-radius: 4px;
+    border: 2px solid rgb(238, 238, 245);
+    background-color: rgb(53, 193, 218);
+    box-shadow: 2px 4px 5px rgb(89, 91, 107);
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.maincaed{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media screen and (max-width : 600px){
+    .card1,.card2,.card3 {
+        width: 100%;
+    }
+}
+.heading{
+    text-align: center;
+    font-weight: 600;
+    margin: 20px;
+    color: rgb(5, 18, 138);
+
+}
+/* ourproduct */
+.ourproduct{
+    margin-top: 50px;
+}
+.card{
+    width: 250px;
+    height: auto !important;
+    margin-bottom: 10px;
+    color: rgb(53, 193, 218);
+    border-color: rgb(53, 193, 218) !important;
+    
+}
+.card-text{
+    font-weight: bold;
+}
+ .btn-primary{
+     width: 100%;
+     background-color:rgb(53, 193, 218) !important;
+ }
+ img{
+     width: 250px;
+ }
+ .heading > h1 {
+     text-shadow: 2px 2px 4px rgb(7, 7, 14);
+
+ }
+ /* footer */
+ .footer{
+     width: 100%;
+     background-color:rgb(3, 27, 105) ;
+     height: 100px;
+ }
+ .footer > div{
+     text-align: center !important;
+ }
+ h4{
+     color: #ffffff;
+ }
+/* foote2 */
+ footer{
+    background-color:rgb(4, 10, 90);
+    color: #d5d5d5;
+    padding-top: 2rem;
+  } 
+  /* .container-fluid{
+      background-color: rgb(6, 73, 15) !important;
+  } */
+  /* .mainfooter{
+      background-color: blue;
+  } */
+  hr.light{
+    border-top: 1px solid #d5d5d5; 
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+   }
+  hr.light-100{
+    border-top: 1px solid #f31111;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
+  /* contant us */
+  .jumbotron{
+    padding: 1rem;
+    border-radius: 0;
+    background-color:rgb(24, 190, 219) !important ;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(3, 30, 105);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(247, 246, 253);
+    color: rgb(2, 3, 61) ;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0d4f69;
+  }
+  /* *, *:before, *:after {
+    box-sizing: inherit;
+  }   */
+  /* aboutme */
+  .column{
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(10, 148, 167, 0.2);
+    margin: 8px;
+  }
+  .container {
+    padding: 0 16px;
+  }
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color:rgb(24, 190, 219);
+    color: white;
+  }
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .title {
+    color: rgb(109, 6, 66);
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color:rgb(24, 190, 219);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color:rgb(4, 243, 252);
+  }
+ /* portfilo start */
+
+ .portfolio {
+    background-color: #ffffff;
+    padding: 100px 15px;
+}
+
+.portfolio .section-title h1::before {
+    left: 30%;
+}
+
+.portfolio .filter-bottum {
+    /* background-color: rgb(13, 196, 37); */
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.portfolio .filter-bottum ul {
+    list-style: none;
+    /* background-color: rgb(69, 85, 70); */
+    text-align: center;
+    padding: 0;
+}
+
+.portfolio .filter-bottum ul li {
+    /* background-color: yellow; */
+    display: inline-block;
+    margin: 0px 8px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(22, 22, 1);
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-bottom: 0px;
+}
+
+.portfolio .filter-bottum ul li.active {
+    color: rgb(4, 79, 109);
+    border-bottom: 2px solid rgb(12, 8, 231);
+}
+
+.portfolio .filter-bottum {
+    margin-bottom: 25px;
+}
+
+.portfolio .portfolio-gallery {
+    /* background-color: rgb(243, 236, 236); */
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: rgb(159, 160, 95); */
+    /* justify-content: space-between;  */
+}
+
+.portfolio .portfolio-gallery .item {
+    /* background-color: rgb(179, 201, 202); */
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    /* margin-bottom: 15px;  */
+    position: relative;
+    padding: 8px;
+}
+
+.portfolio .portfolio-gallery .item .inner {
+    position: relative;
+}
+
+.portfolio .portfolio-gallery .item img {
+    width: 100%;
+    display: block;
+}
+
+.portfolio .portfolio-gallery .item .overlay {
+    /* display: none; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.portfolio .portfolio-gallery .item:hover .overlay {
+    /* display: flex;  is se sab cursal pic par jaye ga 
+to us par icon or naam likha show hoga wrna nhi */
+    opacity: 1;
+}
+
+.portfolio .portfolio-gallery .item .overlay .fa {
+    height: 50px;
+    width: 50px;
+    background-color: #0fc5dd;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    /* animation: galleryicon .8s ease; */
+}
+
+.portfolio .portfolio-gallery .item:hover .overlay .fa {
+    animation: galleryicon .8s ease;
+    -webkit-animation: galleryicon .8s ease;
+    /* animation-delay: 3s; */
+}
+
+@keyframes galleryicon {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.portfolio .portfolio-gallery .item .overlay h4 {
+    /* background-color: #febd01; */
+    /* background-color: #3a9c13; */
+    /* flex-grow: 1; */
+    /* align-self:flex-end; */
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 15px;
+    animation: gallerytext .8s ease;
+}
+
+.portfolio .portfolio-gallery .item:hover .overlay h4 {
+    -webkit-animation: galleryicon .8s ease;
+    animation: galleryicon .8s ease;
+    /* animation-delay: 3s; */
+}
+
+@keyframes gallerytext {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.container {
+    max-width: 1140px;
+    /* background-color: rgb(1, 1, 53); */
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-title {
+    /* background-color: rgb(93, 93, 124); */
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-bottom: 40px;
+}
+.section-title h1 {
+    /* background-color: blue; */
+    display: inline-block;
+    position: relative;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 0 5px;
+    color: rgb(6, 78, 107);
+    /* padding-bottom: 5px; */
+}
+.section-title h1::before {
+    content: '';
+    position: absolute;
+    left: 2px;
+    right: 30%;
+    height: 2px;
+    background-color: rgb(6, 140, 173);
+    bottom: 0px;
+    /* bottom: 0px 0px 10px; is se bottom par jo line h wo upr chli jaye gi */
+}
+.text-center {
+    text-align: center !important;
+}
+.text-left {
+    text-align: left !important;
+}
+.text-right {
+    text-align: right !important;
+}
+  
+
+  
